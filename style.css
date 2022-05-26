@@ -21,12 +21,12 @@ body {
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 nav {
     justify-content: space-evenly;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .second-container {
@@ -38,6 +38,7 @@ nav {
     width: 60%;
     min-width: 600px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .box2 {
@@ -45,35 +46,44 @@ nav {
     color: rgb(82, 191, 228);
     display: flex;
     font-size: 1.5rem;
-    height: 300px;
     min-width: 300px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
     text-align: center;
     width: 40%;
+    min-height: 300px;
 }
 
 .box3 {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 300px;
     min-width: 300px;
     width: 40%;
+    min-height: 300px;
+    padding-bottom: 30px;
 }
 
 .box4 {
     width: 60%;
     min-width: 600px;
-    background-color: lightskyblue;
-    height: 300px;
+    padding-bottom: 30px;
 }
 
 .section-container {
     width: 100%;
-    min-width: 480px;
     background-color: lightblue;
-    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tables {
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+    width: 40%;
 }
 
 .footer-container {
